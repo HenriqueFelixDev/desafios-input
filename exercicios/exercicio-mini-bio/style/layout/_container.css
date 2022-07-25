@@ -1,0 +1,8 @@
+.container {
+    background:  url('../../assets/images/laptop.jpg') no-repeat top center/cover;
+    height: 50vh;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0));
+    position: absolute;
+    width: 100%;
+}

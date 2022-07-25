@@ -1,0 +1,26 @@
+.tabs {
+    border-bottom: thin solid #d0d0d0;
+    border-radius: 5px;
+    display: flex;
+    margin: 1rem 0;
+    overflow: auto;
+}
+
+.tabs__tab {
+    background-color: #f0f0f0;
+    color: #333333;
+    flex-shrink: 0;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tabs__tab:not(:last-child) {
+    border-right: thin solid #d0d0d0;
+}
+
+.tabs__tab:hover {
+    background-color: #e0e0e0;
+}

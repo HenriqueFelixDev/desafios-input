@@ -1,0 +1,14 @@
+.primary-scrollbar::-webkit-scrollbar {
+    height: 10px;
+}
+
+.primary-scrollbar::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.primary-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #9A1032;
+    border-radius: 4px;
+    box-shadow: 4px 4px 6px #0000002d;
+}

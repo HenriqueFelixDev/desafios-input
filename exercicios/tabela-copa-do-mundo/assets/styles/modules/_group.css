@@ -1,0 +1,8 @@
+.group {
+    display: none;
+}
+
+.group:target {
+    animation: fade .5s linear;
+    display: block;
+}

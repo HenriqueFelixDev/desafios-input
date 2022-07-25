@@ -1,0 +1,35 @@
+.bio {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.bio__container {
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.bio__avatar-wrapper {
+    background: linear-gradient(to top, transparent, #2066ce);
+    border-radius: 50%;
+    padding: 0.1rem;
+}
+
+.bio__avatar {
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+}
+
+.bio__presentation {
+    margin-bottom: 0.5rem;
+}

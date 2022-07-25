@@ -1,0 +1,38 @@
+* {margin: 0; padding: 0; outline: none; box-sizing: border-box;}
+
+html, body, .container {
+    height: 100%;
+}
+
+main, .container {
+    display: flex;
+}
+
+header {
+    background: #FF9F9F;
+}
+
+aside {
+    background: #FFD350;
+    width: 150px;
+}
+
+main {
+    flex-direction: column;
+}
+
+.content {
+    background: #B0C9FF;
+}
+
+main, .content {
+    flex: 1;
+}
+
+footer {
+    background: #F6FFC0;
+}
+
+aside, header, footer, .content {
+    padding: 1rem;
+}

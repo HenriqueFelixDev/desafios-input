@@ -1,0 +1,29 @@
+body {
+    font-family: Rubik, sans-serif;
+    line-height: 150%;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.title {
+    font: bold 2rem Montserrat, sans-serif;
+}
+
+#home {
+    padding: 2rem;
+    max-width: 450px;
+}

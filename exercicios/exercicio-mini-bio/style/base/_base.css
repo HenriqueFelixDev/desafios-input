@@ -1,0 +1,23 @@
+body {
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+a::after {
+    content: '\1F517';
+}

@@ -1,0 +1,43 @@
+* {margin: 0; padding: 0; outline: 0;}
+
+html,
+body,
+.main-container > .flex-container {
+    height: 100%;
+}
+
+body, .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    height: 600px;
+    width: 400px;
+}
+
+.flex-container {
+    flex: 1;
+    display: flex;
+    gap: 4px;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+    background: #E5E5E5;
+    border-radius: 1rem;
+}
+
+.item__content {
+    background: #FFFFFF;
+    border-radius: 9999px;
+    height: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    width: 1rem;
+}
