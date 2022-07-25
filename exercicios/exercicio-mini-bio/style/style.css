@@ -1,4 +1,4 @@
-@import url('./base/_reset.css');
-@import url('./base/_base.css');
-@import url('./layout/_bio.css');
-@import url('./layout/_container.css');
+@import url('./base/reset.css');
+@import url('./base/base.css');
+@import url('./layout/bio.css');
+@import url('./layout/container.css');

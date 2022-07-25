@@ -1,8 +1,8 @@
-@import url('./base/_reset.css');
-@import url('./base/_base.css');
-@import url('./layout/_layout.css');
-@import url('./modules/_group.css');
-@import url('./modules/_group__table.css');
-@import url('./modules/_primary-scrollbar.css');
-@import url('./modules/_tabs.css');
-@import url('./_animations.css');
+@import url('./base/reset.css');
+@import url('./base/base.css');
+@import url('./layout/layout.css');
+@import url('./modules/group.css');
+@import url('./modules/group__table.css');
+@import url('./modules/primary-scrollbar.css');
+@import url('./modules/tabs.css');
+@import url('./animations.css');
